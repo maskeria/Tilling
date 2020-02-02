@@ -4,7 +4,7 @@ class Tile {
   float y;
   float translatex;
   float translatey;
-  int padding = 25;
+  int padding = 10;
   float hue = random(360);
   float hueNoise = random(10);
   int corner = int(random(4));
